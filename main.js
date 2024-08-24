@@ -7,8 +7,6 @@ const mainImg = document.getElementById('main-image');
 const inValidCharacters = [' ', ',', ';', '"', "'", '!', '#', '$', '%', '^', '&', '*', '(', ')', '{', '}', '[', ']', '|', '/', '~', '`'];
 const essentialCharacters = ['@', '.'];
 
-msgContainer.style.display = 'none';
-
 function initialize() {
     msgContainer.style.display = 'none';
     email.value = '';
