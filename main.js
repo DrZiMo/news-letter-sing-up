@@ -16,7 +16,6 @@ function initialize() {
 
     if (window.innerWidth < 750) {
         mainImg.src = 'assets/images/illustration-sign-up-mobile.svg';
-        console.log(window.body.innerWidth);
     }
     else {
         mainImg.src = 'assets/images/illustration-sign-up-desktop.svg';

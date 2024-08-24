@@ -194,13 +194,6 @@ body {
   align-items: center;
   z-index: 100;
 }
-@media (max-width: 750px) {
-  .message {
-    background-color: var(--white);
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-  }
-}
 .message .container {
   max-width: 500px;
   background-color: var(--white);
